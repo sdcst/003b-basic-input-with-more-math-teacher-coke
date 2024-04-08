@@ -14,3 +14,10 @@ Enter the # of days in the month: 30
 You earned $0.2 interest. 
 (2 points) 
 """
+
+c = float(input("Enter your amount: "))
+r = float(input("Enter the rate: "))
+t = float(input(" Enter the number of days in the month: "))
+i = c*(r/100)*t/365
+answer = round(i,1)
+print(f"You earned ${answer} interest.")
