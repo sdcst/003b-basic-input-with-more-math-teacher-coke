@@ -13,6 +13,6 @@
 c = int(input("Enter the current population: "))
 r = float(input("Enter the rate of growth in percent: "))
 t = int(input("Enter the number of days: "))
-f1 = c*(1+(r/100))**(12/365)
+f1 = c*(1+(r/100))**(t/365)
 f = round(f1)
 print(f"There will be {f} people after {t} days")
